@@ -1,8 +1,6 @@
 const fs = require('fs');
-const { resolve } = require('path');
 const path = require('path');
 const { stdout } = process;
-const readline = require('readline');
 
 fs.mkdir(path.join(__dirname, 'project-dist'),
 { recursive: true },
